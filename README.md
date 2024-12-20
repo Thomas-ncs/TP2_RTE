@@ -53,12 +53,12 @@ for i in range(len(renouvelable)):
 		for u in range(i):
 			r2 = r2 + renouvelable[u]
 		courbe_r.append(r2)
-plt.plot(temp, courbe_nr)
-plt.plot(temp, courbe_r)
+plt.plot(temp, courbe_nr, label="bleu = non renouvelable")
+plt.plot(temp, courbe_r, label="orange = renouvelable")
+plt.legend()
+plt.title("consomation E renouvelable contre non renouvelable")
 plt.show()
-plt.close
-	
 
-	![image](https://github.com/user-attachments/assets/9978fa28-f1eb-45bb-bcf2-41df79433a5e)
-#La courbe bleu correspond au énergies non renouvelables
-#la courbe orange correspond au énergies renouvelables
+		
+	
+g TP2-R105_LE_NICOLAS.py…]()

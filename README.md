@@ -59,4 +59,6 @@ plt.show()
 plt.close
 	
 
-	
+	![image](https://github.com/user-attachments/assets/9978fa28-f1eb-45bb-bcf2-41df79433a5e)
+#La courbe bleu correspond au énergies non renouvelables
+#la courbe orange correspond au énergies renouvelables
